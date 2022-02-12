@@ -1,0 +1,42 @@
+.book_detail_wrap {
+  min-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.book_detail_card {
+  width: 310px;
+  min-height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px 15px rgba(211, 211, 211, 0.356);
+}
+.bd_card_heading {
+  width: 100%;
+  text-align: center;
+  font-size: 33px;
+  font-weight: 600;
+  color: rgb(21, 178, 240);
+}
+
+.bd_card_subheading {
+  width: 100%;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  color: gray;
+}
+
+.bd_card_body {
+  text-align: center;
+}
+.bd_card_desc {
+  margin: 5px 0;
+  font-weight: 500;
+}

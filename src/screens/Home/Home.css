@@ -1,0 +1,36 @@
+.home_screen {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.home__accordion_wrap {
+  width: 95%;
+  min-height: 70vh;
+  padding: 25px 0;
+  box-sizing: border-box;
+}
+.home_accordion_header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+.home_accordion_headerleft {
+  width: 80px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home_accordion_icon {
+  font-size: 40px !important;
+  color: rgb(21, 178, 240);
+}
+.home_accordion_headerright {
+  font-size: 22px;
+  font-weight: 500;
+  color: rgb(21, 178, 240);
+}
